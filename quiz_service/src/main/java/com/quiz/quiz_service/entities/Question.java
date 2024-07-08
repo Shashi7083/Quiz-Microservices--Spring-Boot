@@ -1,7 +1,5 @@
 package com.quiz.quiz_service.entities;
 
-import java.util.List;
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -10,18 +8,17 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Entity
+
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
-public class Quiz {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+@AllArgsConstructor
+public class Question {
+    
+    
+    private Long questionId;
 
-    private String title;
+    private String question;
 
-    // by using transient this field not saved in database 
-    transient private List<Question> questions;
-
+    private Long quizId;
 }
+
