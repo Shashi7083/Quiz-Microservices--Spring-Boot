@@ -19,6 +19,16 @@
             "projectName": "question_service",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ServiceRegistryApplication<service_registry>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.registery.service_registry.ServiceRegistryApplication",
+            "projectName": "service_registry",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
