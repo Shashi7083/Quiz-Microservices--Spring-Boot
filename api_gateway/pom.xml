@@ -49,6 +49,16 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+
+<!-- hystrix not working .filters[0] -->
+		<!-- <dependency>
+    		<groupId>org.springframework.cloud</groupId>
+    		<artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+   			 <version>2.2.9.RELEASE</version>
+		</dependency> -->
+
+
 	</dependencies>
 	<dependencyManagement>
 		<dependencies>
