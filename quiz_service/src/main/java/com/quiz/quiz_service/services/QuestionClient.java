@@ -8,7 +8,8 @@ import com.quiz.quiz_service.entities.Question;
 
 import java.util.*;
 
-@FeignClient(url = "http://localhost:8082", value = "Question-Client")  //value is a unique name
+// @FeignClient(url = "http://localhost:8082", value = "Question-Client")  //value is a unique name  
+@FeignClient(name="QUESTION-SERVICE")  //use name instead of url ( name is service id  i.e application in Service Registry)  
 public interface QuestionClient {
     
     @GetMapping("/question/quiz/{quizId}") // this will get all the questions of given quiz id from question services

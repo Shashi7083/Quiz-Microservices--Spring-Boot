@@ -1,6 +1,6 @@
-/media/sr/Projects Files/Spring Framework/Learning Spring/Microservices/Quiz/question_service/src/main/java/com/question/question_service/repositories/QuestionRepository.java
-/media/sr/Projects Files/Spring Framework/Learning Spring/Microservices/Quiz/question_service/src/main/java/com/question/question_service/entities/Question.java
-/media/sr/Projects Files/Spring Framework/Learning Spring/Microservices/Quiz/question_service/src/main/java/com/question/question_service/QuestionServiceApplication.java
-/media/sr/Projects Files/Spring Framework/Learning Spring/Microservices/Quiz/question_service/src/main/java/com/question/question_service/serviceImpl/QuestionServiceImpl.java
-/media/sr/Projects Files/Spring Framework/Learning Spring/Microservices/Quiz/question_service/src/main/java/com/question/question_service/services/QuestionService.java
-/media/sr/Projects Files/Spring Framework/Learning Spring/Microservices/Quiz/question_service/src/main/java/com/question/question_service/controllers/QuestionController.java
+E:\Projects\Spring Projects\Learning Spring\Microservices\Quiz\question_service\src\main\java\com\question\question_service\serviceImpl\QuestionServiceImpl.java
+E:\Projects\Spring Projects\Learning Spring\Microservices\Quiz\question_service\src\main\java\com\question\question_service\services\QuestionService.java
+E:\Projects\Spring Projects\Learning Spring\Microservices\Quiz\question_service\src\main\java\com\question\question_service\entities\Question.java
+E:\Projects\Spring Projects\Learning Spring\Microservices\Quiz\question_service\src\main\java\com\question\question_service\repositories\QuestionRepository.java
+E:\Projects\Spring Projects\Learning Spring\Microservices\Quiz\question_service\src\main\java\com\question\question_service\controllers\QuestionController.java
+E:\Projects\Spring Projects\Learning Spring\Microservices\Quiz\question_service\src\main\java\com\question\question_service\QuestionServiceApplication.java

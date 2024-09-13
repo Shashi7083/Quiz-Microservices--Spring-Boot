@@ -1,6 +1,6 @@
-com/question/question_service/entities/Question.class
-com/question/question_service/QuestionServiceApplication.class
-com/question/question_service/serviceImpl/QuestionServiceImpl.class
-com/question/question_service/controllers/QuestionController.class
-com/question/question_service/repositories/QuestionRepository.class
-com/question/question_service/services/QuestionService.class
+com\question\question_service\controllers\QuestionController.class
+com\question\question_service\serviceImpl\QuestionServiceImpl.class
+com\question\question_service\QuestionServiceApplication.class
+com\question\question_service\services\QuestionService.class
+com\question\question_service\repositories\QuestionRepository.class
+com\question\question_service\entities\Question.class
