@@ -28,6 +28,17 @@
             "mainClass": "com.registery.service_registry.ServiceRegistryApplication",
             "projectName": "service_registry",
             "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=61990 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=service_registry"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ApiGatewayApplication<api_gateway>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.gateway.api_gateway.ApiGatewayApplication",
+            "projectName": "api_gateway",
+            "args": "",
             "envFile": "${workspaceFolder}/.env"
         }
     ]
